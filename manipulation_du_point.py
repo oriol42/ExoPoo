@@ -33,6 +33,8 @@ class Point:
     def scalaire(self,x,y):
         self.x = self.x * x
         self.y = self.y *y
+        somme = self.x + self.y
+        return somme
     
     
 
@@ -51,6 +53,6 @@ print(f"la distance du premier point est de {point1.distance(2,2)}")
 point2.milieu(5,7)
 point2.afficher()
 
-Point3.scalaire(3,2)
-Point3.afficher()
+print(f"le scalire est {Point3.scalaire(3,2)}")
+
 
